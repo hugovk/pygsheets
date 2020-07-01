@@ -8,5 +8,5 @@ python:
 install: "pip install ."
 # command to run tests
 script:
-  - "py.test -v tests/authorization_test.py"
-  - "py.test -v tests/online_test.py"
+  - "pytest -v tests/authorization_test.py"
+  - "pytest -v tests/online_test.py"
